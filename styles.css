@@ -59,7 +59,7 @@ justify-content: center;
 
   font-family: 'Expletus Sans', cursive;
 text-align: center;
-
+padding:45px;
 
 }
 
@@ -217,6 +217,7 @@ a.linky:hover {color:rgb(0, 248, 227); text-decoration: none;}
 .show {
   font-family: 'Expletus Sans', cursive;
   color:rgb(26, 201, 192);
+  padding:45px;
 }
 .show1{
   font-family: 'Expletus Sans', cursive;
