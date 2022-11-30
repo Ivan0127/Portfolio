@@ -36,6 +36,35 @@ padding: 45px;
 flex-wrap: wrap;
 }
 
+#nav{
+  text-align: center;
+}
+#nav ul{
+  display: inline-block;
+}
+.navMenu {
+  color:rgb(0, 248, 227);
+ 
+  background-color: #012d3544;
+
+  font-size: 1.2em;
+  text-transform: uppercase;
+
+  word-spacing: 10px;
+ 
+  display: inline-block;
+ 
+  white-space: nowrap;
+justify-content: center;
+
+  font-family: 'Expletus Sans', cursive;
+text-align: center;
+
+
+}
+
+
+
 a.linky:link {color:rgb(255, 255, 255); text-decoration: none;}
 a.linky:visited {color:rgb(255, 255, 255); text-decoration: none;}
 a.linky:hover {color:rgb(0, 248, 227); text-decoration: none;}
@@ -189,6 +218,12 @@ a.linky:hover {color:rgb(0, 248, 227); text-decoration: none;}
   font-family: 'Expletus Sans', cursive;
   color:rgb(26, 201, 192);
 }
+.show1{
+  font-family: 'Expletus Sans', cursive;
+  color:rgb(26, 201, 192);
+  padding:45px;
+line-height: 150%;
+}
 
 .container {
   min-height: 100vh;
@@ -206,9 +241,10 @@ main {
   padding: 10px;
 }
 
-#idkwattocallthis{
+.idkwattocallthis{
   display: flex;
   flex-wrap:wrap;
  justify-content: center;
  align-items: center;
 }
+
